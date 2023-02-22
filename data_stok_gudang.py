@@ -1,8 +1,9 @@
 #import library datetime untuk mendapatkan data tanggal/bulan hari ini
 from datetime import datetime
 
+############ DATA ##########################################################
 #Data Stok barang hingga saat ini (awal stok di bulan januari)
-STOK_BARANG = { "kode"          : [1,2,3,4,5,6],
+STOK_BARANG = { "kode"           : [1,2,3,4,5,6],
                 "nama"           : ["piring", "sendok", "garpu", "sabun", "sampo", "kabel"],
                 "kategori"       : ["peralatan dapur", "peralatan dapur", "peralatan dapur", "peralatan mandi", "peralatan mandi", "kelistrikan"],
                 "harga beli"     : [10000, 3000, 3000, 3500, 5000, 4000],
@@ -200,13 +201,14 @@ def tampilkan_tabel(bulan, data_stok):
     print("*"*130)
 
 #2 Fungsi untuk update data stok otomatis ketika sudah memasuki awal bulan baru 
-def update_histori_awal_bulan(bulan_hari_ini):
+def inisiasi_tabel_awal_bulan_baru(bulan_hari_ini):
     if len(HISTORI_STOK[bulan_hari_ini]['kode'])==0:
         if bulan_hari_ini == "januari":
             bulan_sebelumnya = "desember"
         else:
             bulan_sebelumnya = list_nama_bulan[list_nama_bulan.index(bulan_hari_ini)-1]
 
+        #catatan : stok masuk, stok keluar akan nol karena asumsi di awal bulan belum ada barang masuk/keluar
         HISTORI_STOK[bulan_hari_ini]['kode'] = HISTORI_STOK[bulan_sebelumnya]['kode']
         HISTORI_STOK[bulan_hari_ini]['nama'] = HISTORI_STOK[bulan_sebelumnya]['nama']
         HISTORI_STOK[bulan_hari_ini]['kategori'] = HISTORI_STOK[bulan_sebelumnya]['kategori']
@@ -235,9 +237,9 @@ def get_record_from_kode(kode, data_stok):
     
     return index_kode_barang, record
 
-#Sistem akan mengecek dulu apakah sudah memasuki bulan baru, jika sudah, maka tabel bulan ini akan di update
+#Sistem akan mengecek dulu apakah sudah memasuki bulan baru, jika sudah, maka tabel bulan baru akan di inisiasi dengan bulan sebelumnya 
 bulan_hari_ini = list_nama_bulan[int((datetime.now()).strftime("%m")[1])-1]
-update_histori_awal_bulan(bulan_hari_ini)
+inisiasi_tabel_awal_bulan_baru(bulan_hari_ini)
 
 
 #######################################  MASUK KE MENU UTAMA #################################################################
