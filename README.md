@@ -57,7 +57,7 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 
 ## Author
 
-**Nama          : Putu Agus Hendra Satriawan**
-**Student-ID    : JCDSOL-009-003**
-**Kelas         : JCDSOL 09 (WA)**
-**Email         : agushendrasatriawan7@gmail.com**
+- **Nama          : Putu Agus Hendra Satriawan**
+- **Student-ID    : JCDSOL-009-003**
+- **Kelas         : JCDSOL 09 (WA)**
+- **Email         : agushendrasatriawan7@gmail.com**
