@@ -24,6 +24,12 @@ Terdapat beberapa menu pada program pada Data Stok Gudang di Toko Hendra's Toser
 | **5** | sampo  | peralatan mandi |    5000    |    6000    |    250    |     60     |      0      |    310     |     ready    |
 | **6** | kabel  |   kelistrikan   |    4000    |    5000    |    40     |     10     |     50      |     0      | out of stock |
 
+keterangan : Terdapat tiga tabel yang ada pada program ini :
+
+1. Tabel data stok existing                   : merupakan tabel data stok existing (yang tidak dihapus) periode dari awal tahun (januari) sampai bulan hari ini.
+2. Tabel histori data stok existing per bulan : tabel data stok per bulan berlalu yang disimpan sebagai histori/riwayat.
+3. Tabel histori data yang dihapus (deleted)  : tabel yang menyimpan baris data yang dihapus oleh admin.
+
 
 ### Deskripsi Data
 Berikut merupakan penjelasan data dari setiap kolom pada tabel
@@ -39,4 +45,14 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 |   **Stok masuk**  | **Merupakan banyak nya barang/unit (stok) yang masuk ke gudang yang akan ditambah dengan stok awal di satu bulan/periode bulan tertentu**                              |
 |   **Stok keluar** | **Merupakan banyak nya barang/unit (stok) yang keluar dari gudang  di satu bulan/periode bulan tertentu**                                                              |
 |   **Stok akhir**  | **Merupakan banyak nya barang/unit (stok) yang tersisa :  stok akhir = stok awal + stok masuk - stok keluar**                                                          |
-|     **Status**    | **Menunjukkan ketersediaan dari barng tersebut apakah *ready* atau *out of stock***                                                                                    |
+|     **Status**    | **Menunjukkan ketersediaan dari barang tersebut apakah *ready* atau *out of stock***                                                                                    |
+
+## Usage
+1. Pilih direktori pada komputer lokal, lalu inisiasi git dengan command prompt (terminal) dan jalankan perintah :
+   ```git init .```
+2. Clone repository ini dengan perintah :
+   ```git init https://github.com/agusHendra67/capstone_modul_1.git```
+3. Setelah di clone, lalu untuk menjalankan program tuliskan :
+    ```python data_stok_gudang.py```
+
+
