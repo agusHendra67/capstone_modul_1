@@ -51,7 +51,7 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 1. Pilih direktori pada komputer lokal, lalu inisiasi git dengan command prompt (terminal) dan jalankan perintah :
    ```git init .```
 2. Clone repository ini dengan perintah :
-   ```git init https://github.com/agusHendra67/capstone_modul_1.git```
+   ```git clone https://github.com/agusHendra67/capstone_modul_1.git```
 3. Setelah di clone, lalu untuk menjalankan program tuliskan :
     ```python data_stok_gudang.py```
 
