@@ -246,9 +246,9 @@ while True :
             SELAMAT DATANG DI DATA STOK GUDANG BARANG DI HENDRA'S TOSERBA
 
             List Menu :
-            1. Menampilkan tabel data stok barang
-            2. Menambah barang baru
-            3. Menghapus barang
+            1. Tampilkan Data stok barang
+            2. Tambah Data baru
+            3. Hapus Data barang
             4. Update nama/harga barang atau menambah stok masuk/stok keluar
             5. Exit Program
 
