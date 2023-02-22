@@ -41,10 +41,10 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 |    **Kategori**   | **Kategori barang sesuai dengan kegunaan nya. Contoh : sendok masuk ke kategori peralatan dapur**                                                                     |
 |   **Harga beli**  | **Nilai harga beli per unit barang dalam Rupiah**                                                                                                                     |
 |   **Harga jual**  | **Nilai harga jual per unit barang dalam Rupiah**                                                                                                                     |
-|   **Stok awal**   | **Merupakan banyak nya barang/unit (stok) yang tersedia di gudang sebelum ada barang masuk/keluar di satu bulan/periode bulan tertentu**                              |
-|   **Stok masuk**  | **Merupakan banyak nya barang/unit (stok) yang masuk ke gudang yang akan ditambah dengan stok awal di satu bulan/periode bulan tertentu**                             |
-|   **Stok keluar** | **Merupakan banyak nya barang/unit (stok) yang keluar dari gudang  di satu bulan/periode bulan tertentu**                                                             |
-|   **Stok akhir**  | **Merupakan banyak nya barang/unit (stok) yang tersisa :  stok akhir = stok awal + stok masuk - stok keluar**                                                         |
+|   **Stok awal**   | **Jumlah barang/unit (stok) yang tersedia di gudang sebelum ada barang masuk/keluar di satu bulan/periode bulan tertentu**                                            |
+|   **Stok masuk**  | **Jumlah barang/unit (stok) yang masuk ke gudang yang akan ditambah dengan stok awal di satu bulan/periode bulan tertentu**                                           |
+|   **Stok keluar** | **Jumlah barang/unit (stok) yang keluar dari gudang  di satu bulan/periode bulan tertentu**                                                                           |
+|   **Stok akhir**  | **Jumlah barang/unit (stok) yang tersisa : stok akhir = stok awal + stok masuk - stok keluar**                                                                       |
 |     **Status**    | **Menunjukkan ketersediaan dari barang tersebut apakah *ready* atau *out of stock***                                                                                  |
 
 ## Usage
