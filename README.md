@@ -45,8 +45,7 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 |   **Stok masuk**  | **Merupakan banyak nya barang/unit (stok) yang masuk ke gudang yang akan ditambah dengan stok awal di satu bulan/periode bulan tertentu**                              |
 |   **Stok keluar** | **Merupakan banyak nya barang/unit (stok) yang keluar dari gudang  di satu bulan/periode bulan tertentu**                                                              |
 |   **Stok akhir**  | **Merupakan banyak nya barang/unit (stok) yang tersisa :  stok akhir = stok awal + stok masuk - stok keluar**                                                          |
-|     **Status**    | **Menunjukkan ketersediaan dari barang tersebut apakah *ready* atau *out of stock***                                                                                    |
-<<<<<<< HEAD
+|     **Status**    | **Menunjukkan ketersediaan dari barang tersebut apakah *ready* atau *out of stock***                                                                                   |
 
 ## Usage
 1. Pilih direktori pada komputer lokal, lalu inisiasi git dengan command prompt (terminal) dan jalankan perintah :
@@ -56,6 +55,3 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 3. Setelah di clone, lalu untuk menjalankan program tuliskan :
     ```python data_stok_gudang.py```
 
-
-=======
->>>>>>> 6632e9b0d879995c7b03b34314fdc085b799f05f
