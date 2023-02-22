@@ -55,3 +55,9 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 3. Setelah di clone, lalu untuk menjalankan program tuliskan :
     ```python data_stok_gudang.py```
 
+## Author
+
+**Nama          : Putu Agus Hendra Satriawan**
+**Student-ID    : JCDSOL-009-003**
+**Kelas         : JCDSOL 09 (WA)**
+**Email         : agushendrasatriawan7@gmail.com**
