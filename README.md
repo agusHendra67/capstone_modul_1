@@ -15,7 +15,7 @@ Terdapat beberapa menu pada program pada Data Stok Gudang di Toko Hendra's Toser
 
 # Contoh tabel
 
- kode |Nama|Kategori|Harga beli|Harga Jual|Stok awal|Stok masuk|Stok keluar|Stok akhir|Status|
+| kode |Nama|Kategori|Harga beli|Harga Jual|Stok awal|Stok masuk|Stok keluar|Stok akhir|Status|
 |---|:---:|:---:|:---:|:---:||:---:||:---:||:---:||:---:||:---:|
 | **1** | piring | peralatan dapur |   10000    |   12000    |    100    |     61     |      9      |    162     |     ready    |
 | **2** | sendok | peralatan dapur |    3000    |    4000    |    180    |     12     |      0      |    192     |     ready    |
