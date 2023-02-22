@@ -400,9 +400,9 @@ while True :
                             break
 
                         if (pilihan_kode.replace(" ","").isdigit()) and (int(pilihan_kode) in STOK_BARANG['kode']):
-                            #index baris dari kode barang yang diinput
-                            index_kode_barang = STOK_BARANG['kode'].index(int(pilihan_kode))
-                            record_to_show = {key : [value[i]] for key,value in STOK_BARANG.items() for i in range(len(STOK_BARANG['kode'])) if i==index_kode_barang}
+
+                            #ambil satu record data berdasarkan kode yang dimasukkan
+                            index_kode_barang, record_to_show = get_record_from_kode(pilihan_kode, STOK_BARANG)
                             break
                         elif (pilihan_kode.strip().isdigit()) and (int(pilihan_kode) not in STOK_BARANG['kode']):
                             print("kode barang tidak ditemukkan, coba lagi.")
