@@ -39,4 +39,4 @@ Berikut merupakan penjelasan data dari setiap kolom pada tabel
 |   **Stok masuk**  | **Merupakan banyak nya barang/unit (stok) yang masuk ke gudang yang akan ditambah dengan stok awal di satu bulan/periode bulan tertentu**                              |
 |   **Stok keluar** | **Merupakan banyak nya barang/unit (stok) yang keluar dari gudang  di satu bulan/periode bulan tertentu**                                                              |
 |   **Stok akhir**  | **Merupakan banyak nya barang/unit (stok) yang tersisa :  stok akhir = stok awal + stok masuk - stok keluar**                                                          |
-|     **Status**    | **Menunjukkan ketersediaan dari barng tersebut apakah *ready* atau *out of stock***                                                                                    |
+|     **Status**    | **Menunjukkan ketersediaan dari barang tersebut apakah *ready* atau *out of stock***                                                                                    |
